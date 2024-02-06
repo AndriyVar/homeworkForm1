@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="textForm">
+            <input type="checkbox" name="style" id="bold"><label for="bold">Bold</label>
+            <input type="checkbox" name="style" id="underline"><label for="underline">Underline</label>
+            <input type="checkbox" name="style" id="italic"><label for="italic">Italics</label>
+            <input type="radio" name="align" id="left"><label for="left">Left</label>
+            <input type="radio" name="align" id="right"><label for="right">Right</label>
+            <input type="radio" name="align" id="justify"><label for="justify">Justify</label>
+            <textarea id="inputText"></textarea>
+            <button id="showTextBtn">Show text</button>
+        </form>
+    
+        <h3>Result:</h3>
+        <p class="text" id="resultText"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbf2e9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    margin: 10px auto;
+    width: 450px;
+}
+
+input {
+    margin: 0 5px;
+}
+
+.text {
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+textarea {
+    margin: 20px 0;
+    font-size: 14px;
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+}
